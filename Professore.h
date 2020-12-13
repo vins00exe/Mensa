@@ -12,7 +12,7 @@ public:
         if (stipendio <= 30000) {
             return 2.5;
         }
-        else if (stipendio > 30000 && stipendio <= 40000) {
+        if (stipendio <= 40000) {
             return 3.5;
         }
         else {

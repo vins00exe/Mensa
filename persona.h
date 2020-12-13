@@ -15,7 +15,7 @@ public:
     virtual Persona* clone() const { return new Persona(*this); }
 
     virtual float Sconto() const {
-        return 7;
+        return 7.0;
     }
 
     void setCodiceFiscale(string cf) { codiceFiscale = cf; }

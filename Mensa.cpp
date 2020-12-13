@@ -11,6 +11,7 @@ void Mensa::stampa() const {
 	}
 }
 
+//lo sconto lo calcolo in ogni classe, così se vengono aggiunte nuove figure che possono accedere alla mensa non c'è bisogno di toccare questa classe.
 float Mensa::calcolaIncassoGiornaliero() const {
 	float incasso = 0.0;
 	for (auto it = l.begin(); it != l.end(); ++it) {
